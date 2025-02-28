@@ -2,6 +2,7 @@
 #install.packages("tseries")
 #install.packages("lmtest")
 
+library(MASS)
 library(ggplot2)
 library(lmtest)
 library(forecast)
@@ -392,26 +393,3 @@ p <- ggplot(plot_df, aes(x = year)) +
 
 #print(p)
 ggsave("Figures/4.5.2_WLS_Train_Test_Predictions.pdf", plot = p, width = 9, height = 7, dpi = 300)
-
-cat("\n------------- Exercise 5.2 -------------\n")
-
-
-
-cat("\n------------- Exercise 5.3 -------------\n")
-
-
-
-cat("\n------------- Exercise 5.4 -------------\n")
-
-
-
-cat("\n------------- Exercise 5.5 -------------\n")
-
-
-
-cat("\n------------- Exercise 5.6 -------------\n")
-
-
-
-cat("\n------------- Exercise 5.7 -------------\n")
-
